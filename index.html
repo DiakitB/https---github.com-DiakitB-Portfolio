@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Protfolio</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="mystyle.css" />
+  </head>
+  <body style="background-color: #000000">
+    <!--.this class explain in detail how the bootstrap classes work:..
+    We first select the class that we want to use then we call the methods and properties on that class as seeng above -->
+    <nav class="nav navbar navbar-expand-lg navbar-dark py-3">
+      <div class="container">
+        <!--.this class will put this element contain to the far right..-->
+
+        <!--.this toggler will allow us to toggle this button to the navbar when the screen reachs a certain break point make sure that you implement it exactly the way it's writen.-->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navmenu"
+        >
+          Menu
+        </button>
+        <div class="collapse navbar-collapse" id="navmenu">
+          <!--..this class will collapse this dive when the screen reachs a certain high.-->
+          <ul class="navbar-nav ms-auto">
+            <!--.the ms-auto will move all the nav items to the right if you dont want that just remove that ms auto..-->
+
+            <li class="nave-item">
+              <a
+                href="https://docs.google.com/document/d/1XIg7DVWO7yEQbg7GAFXuES3larF9MnBf76Z7S1URIY0/edit?usp=sharing"
+                class="nav-link"
+                >Resume</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <section class="bg-none text-light p-5 text-center text-sm-start">
+      <div class="container">
+        <div class="d-sm-flex align-items-center justify-content-between">
+          <!--this class allow us tho declare a div as a flex-box 
+        so this div is now a flex box that will display these two elements side by side-->
+          <div>
+            <!--the words between the span is going to be Yellow-->
+            <h1>The Super <span class="text-warning">Developer</span></h1>
+
+            <p class="lead-1">
+              Hello! My name is Babacar and I enjoy creating things that live on
+              the internet. My interest in web development started back in 2012
+              when I decided to try editing custom Tumblr themes — turns out
+              hacking together a custom reblog button taught me a lot about HTML
+              & CSS! Fast-forward to today, and I’ve had the privilege of
+              working at an advertising agency, a start-up, a huge corporation,
+              and a student-led design studio. My main focus these days is
+              building accessible, inclusive products and digital experiences at
+              Upstatement for a variety of clients. I also recently launched a
+              course that covers everything you need to build a web app with the
+              Spotify API using Node & React. Here are a few technologies I’ve
+              been working with recently
+            </p>
+          </div>
+          <img src="images/me.jpeg" style="max-width: 20%" class="ms-auto" />
+        </div>
+      </div>
+    </section>
+    <section id="#Resume">
+      <div class="container">
+        <div class="row text-center justify-content-between">
+          <div class="card">
+            <div class="image-wrapper">
+              <img src="images/profolio.PNG" class="card-img-top" alt="..." />
+            </div>
+            <div class="card-body">
+              <h5 class="card-title text-primary">
+                C# MVC Model, Entity-Framework and SQL
+              </h5>
+              <div class="text-wrapper">
+                <p class="card-text1">
+                  To see all the functionalities, use this credentials to login:
+                  UserName={test123@gmail.com}, Password={Test123@}
+                </p>
+              </div>
+              <a
+                href="https://firststore.azurewebsites.net"
+                class="btn btn-primary"
+                >Go Live</a
+              >
+              <a
+                href="https://github.com/DiakitB/MegaStore"
+                class="btn btn-primary"
+                >Go Code</a
+              >
+            </div>
+          </div>
+          <div class="card">
+            <div class="image-wrapper">
+              <img src="images/carlos.PNG" class="card-img-top" alt="..." />
+            </div>
+            <div class="card-body">
+              <h5 class="card-title text-primary">HTML, BOOTSTRAP5</h5>
+              <div class="text-wrapper"></div>
+              <a
+                href="https://zingy-vacherin-0ac37d.netlify.app"
+                class="btn btn-primary"
+                >Go Live</a
+              >
+              <a
+                href="https://github.com/DiakitB/Marcus"
+                class="btn btn-primary"
+                >Go Code</a
+              >
+            </div>
+          </div>
+          <div class="card">
+            <div class="image-wrapper">
+              <img src="images/react.PNG" class="card-img-top" alt="..." />
+            </div>
+            <div class="card-body">
+              <h5 class="card-title text-primary">
+                JAVASCRIPT-REACT-FRAMEWORK
+              </h5>
+              <div class="text-wrapper"></div>
+              <a
+                href="https://verdant-muffin-883d17.netlify.app"
+                class="btn btn-primary"
+                >Go Live</a
+              >
+              <a
+                href="https://github.com/DiakitB/ecommerce"
+                class="btn btn-primary"
+                >Go Code</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

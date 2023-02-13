@@ -1,0 +1,25 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  overflow: hidden;
+  overflow-y: scroll;
+}
+.text-wrapper {
+  line-height: 150%;
+}
+.card {
+  width: 30%;
+  height: auto;
+}
+.lead-1 {
+  line-height: 150%;
+}
+h5 {
+  font-size: 15px;
+}
+.image-wrapper {
+  height: 35vh;
+}
