@@ -7,19 +7,10 @@ body {
   overflow: hidden;
   overflow-y: scroll;
 }
-.text-wrapper {
-  line-height: 150%;
-}
-.card {
-  width: 30%;
+.images {
+  width: 100%;
   height: auto;
 }
-.lead-1 {
-  line-height: 150%;
-}
-h5 {
-  font-size: 15px;
-}
-.image-wrapper {
-  height: 35vh;
+.section-2 {
+  margin-top: 100px;
 }
