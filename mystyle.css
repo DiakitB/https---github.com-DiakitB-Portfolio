@@ -19,16 +19,16 @@ i {
 }
 @media only screen and (max-width: 800px) {
   .img-1 {
-    width: 200px;
-    height: 200px;
+    width: 100%;
+    height: auto;
     margin-left: 150px;
   }
   .lead-1 {
     line-height: 200%;
   }
   .image-wrapper {
-    width: 150px;
-    height: 250px;
+    width: 650px;
+    height: 650px;
   }
   h5 {
     font-weight: 400px;
