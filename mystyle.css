@@ -22,6 +22,9 @@ body {
 .about-text {
   padding-bottom: 15px;
 }
+.te {
+  padding-top: 30px;
+}
 @media only screen and (max-width: 800px) {
   .madou {
     margin-left: auto;
